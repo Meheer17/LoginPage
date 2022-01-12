@@ -1,0 +1,23 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title Sign Up
+  link(rel='stylesheet' href='index.css')
+#oof
+  ah
+    form#f1(action='/register' method='post')
+      #su.signup
+        h1 Sign Up
+        br
+        h3 Username:
+        input#username(type='text' name='username' placeholder='Username...' required='')
+        //
+          <h3>Email:</h3>
+          <input type="email" name="email" id="email" placeholder="Email..." required>
+        h3 Password:
+        input#password(type='password' name='password' placeholder='Password...' required='')
+        button(type='submit') Sign up!!
+        p
+          | Have a account already? 
+          a(href='/') Login!!

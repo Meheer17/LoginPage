@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(44, 43, 43);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#oof{
+    width: 40%;
+    color: white;
+    margin-top: 30vh;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signin{
+    margin: 10px;
+    padding-bottom:10px;
+    border-radius: 10px;
+    width:  300px;
+    padding: 5px;
+}
+.signup{
+    margin: 10px;
+    padding-bottom:10px;
+    border-radius: 10px;
+    width:  300px;
+    padding: 5px;
+}
+
+.dnh{
+    display: block;
+}
+
+input{
+    margin: 10px 0 10px 0;
+    background-color: black;
+    width: 100%;
+    height: 30px;
+    padding: 3px;
+    color: rgb(230, 164, 42);
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid black; 
+    border-right: 5px solid orange;
+    border-left: 5px solid orange;
+}
+
+a{
+    text-decoration: none;
+    color: aqua;
+}
+
+button{
+    margin: 10px 0 10px 0;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(88, 88, 88) ;
+    border: 2px solid orange;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 5px;
+}
